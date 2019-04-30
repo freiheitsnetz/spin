@@ -12,22 +12,33 @@ a small utility to assist in setting usage modes of laptop-tablet devices
 
 This utility requires X11.
 
-Install PyQt5. On Ubuntu 16.04 LTS, run the following:
+## Ubuntu 16.04 LTS
+
+Install PyQt5. Run the following:
 
 ```Bash
 sudo apt install python-qt5
 ```
 
-On Ubuntu 18.04 LTS, run the following:
+Now install spin by running the following:
+
 
 ```Bash
-sudo apt install pyqt5-dev pyqt5-dev-tools
+sudo pip install python_spin
+```
+
+## Ubuntu 18.04 LTS
+
+Install PyQt5. Run the following:
+
+```Bash
+sudo apt install python3-pyqt5
 ```
 
 Now install spin by running the following:
 
 ```Bash
-sudo pip install python_spin
+sudo pip3 install python_spin
 ```
 
 To set up globally a Linux desktop launcher with icon, execute the following:
